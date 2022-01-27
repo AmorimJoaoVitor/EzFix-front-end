@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "~react-vis/dist/style";
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins',sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+li{
+  cursor: pointer;
+}
+
+.alturaSemNavbar{
+  height: calc(100vh - 6rem);
+}
+
+.h-fit{
+  height: fit-content;
+}
+
+.w-fit{
+  width: fit-content;
+}
+
+.tamanhoMinimo{
+  min-height: calc(100vh - 6rem);
+  max-height: fit-content;
+}
